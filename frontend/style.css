@@ -1,5 +1,3 @@
-/* colors #ffeedf #145434  */
-
 * {
   margin: 0;
   padding: 0;
@@ -26,18 +24,15 @@ body {
   align-items: center;
 }
 
-
 .card {
   background-color: #145434;
   color: #ffeedf;
   width: 400px;
   height: 250px;
   padding: 40px 30px 30px 20px;
-  margin: 50px;
+  /* margin: 20px; */
   
   position: relative;
-  
-  
 }
 
 .number {
@@ -62,7 +57,7 @@ body {
 
 .card-container {
   max-width: 1200px;
-  gap: 40px;
+  gap: 60px;
   padding: 50px 50px 50px 50px;
   display: flex;
   flex-wrap: wrap;
@@ -99,6 +94,7 @@ button {
 
   position: relative;
 }
+
 button:hover {
   background-color: #145434;
   color: #ffeedf;

@@ -77,6 +77,4 @@ for (let i = 0; i < beers.cards.length; i++) {
 </div>`;
   const cardContainer = document.getElementsByClassName("card-container")[0];
   cardContainer.innerHTML+=html;
-
-
 }
