@@ -24,6 +24,11 @@ body {
   align-items: center;
 }
 
+.menu {
+font-size: 36px !important;
+padding: 12px 0 0 0;
+}
+
 .card {
   background-color: #145434;
   color: #ffeedf;
@@ -116,4 +121,5 @@ button:hover {
 .arrow {
   position: absolute;
   right: 10px;
+  font-size: 36px !important;
 }
